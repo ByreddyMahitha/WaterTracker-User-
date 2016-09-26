@@ -1,0 +1,318 @@
+[Mon Jun 20 12:30:34.830239 2016] [ssl:warn] [pid 3704:tid 588] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 20 12:30:35.017741 2016] [ssl:warn] [pid 3704:tid 588] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 20 12:30:35.048991 2016] [mpm_winnt:notice] [pid 3704:tid 588] AH00455: Apache/2.4.20 (Win32) OpenSSL/1.0.2g PHP/5.6.22 configured -- resuming normal operations
+[Mon Jun 20 12:30:35.048991 2016] [mpm_winnt:notice] [pid 3704:tid 588] AH00456: Apache Lounge VC11 Server built: Apr  9 2016 11:30:31
+[Mon Jun 20 12:30:35.048991 2016] [core:notice] [pid 3704:tid 588] AH00094: Command line: 'C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\bin\\httpd.exe -d C:/Users/ramky/Desktop/summer/wamp/apache2 -f C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\conf\\httpd.conf'
+[Mon Jun 20 12:30:35.048991 2016] [mpm_winnt:notice] [pid 3704:tid 588] AH00418: Parent: Created child process 9184
+[Mon Jun 20 12:30:35.425291 2016] [ssl:warn] [pid 9184:tid 396] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 20 12:30:35.565918 2016] [ssl:warn] [pid 9184:tid 396] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 20 12:30:35.604463 2016] [mpm_winnt:notice] [pid 9184:tid 396] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 20 12:30:42.579919 2016] [mpm_winnt:notice] [pid 3704:tid 588] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 20 12:30:44.589304 2016] [mpm_winnt:notice] [pid 9184:tid 396] AH00364: Child: All worker threads have exited.
+[Mon Jun 20 12:30:44.636130 2016] [mpm_winnt:notice] [pid 3704:tid 588] AH00430: Parent: Child process 9184 exited successfully.
+[Mon Jun 20 12:30:46.464267 2016] [ssl:warn] [pid 6636:tid 616] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 20 12:30:46.691960 2016] [ssl:warn] [pid 6636:tid 616] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 20 12:30:46.707586 2016] [mpm_winnt:notice] [pid 6636:tid 616] AH00455: Apache/2.4.20 (Win32) OpenSSL/1.0.2g PHP/5.6.22 configured -- resuming normal operations
+[Mon Jun 20 12:30:46.707586 2016] [mpm_winnt:notice] [pid 6636:tid 616] AH00456: Apache Lounge VC11 Server built: Apr  9 2016 11:30:31
+[Mon Jun 20 12:30:46.707586 2016] [core:notice] [pid 6636:tid 616] AH00094: Command line: 'C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\bin\\httpd.exe -d C:/Users/ramky/Desktop/summer/wamp/apache2 -f C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\conf\\httpd.conf'
+[Mon Jun 20 12:30:46.707586 2016] [mpm_winnt:notice] [pid 6636:tid 616] AH00418: Parent: Created child process 8824
+[Mon Jun 20 12:30:47.323704 2016] [ssl:warn] [pid 8824:tid 456] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 20 12:30:47.443627 2016] [ssl:warn] [pid 8824:tid 456] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 20 12:30:47.462205 2016] [mpm_winnt:notice] [pid 8824:tid 456] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 20 12:35:55.552727 2016] [:error] [pid 8824:tid 1164] [client ::1:60850] script 'C:/Users/ramky/Desktop/summer/wamp/apache2/htdocs/phpinfo.php' not found or unable to stat
+[Mon Jun 20 12:51:00.850587 2016] [:error] [pid 8824:tid 1184] [client ::1:61006] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\send_formdata_members.php on line 2, referer: http://localhost/from.html
+[Mon Jun 20 12:52:14.972459 2016] [mpm_winnt:notice] [pid 6636:tid 616] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 20 12:52:16.982755 2016] [mpm_winnt:notice] [pid 8824:tid 456] AH00364: Child: All worker threads have exited.
+[Mon Jun 20 12:52:17.049692 2016] [mpm_winnt:notice] [pid 6636:tid 616] AH00430: Parent: Child process 8824 exited successfully.
+[Mon Jun 20 12:52:17.949356 2016] [ssl:warn] [pid 10192:tid 616] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 20 12:52:18.189697 2016] [ssl:warn] [pid 10192:tid 616] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 20 12:52:18.209718 2016] [mpm_winnt:notice] [pid 10192:tid 616] AH00455: Apache/2.4.20 (Win32) OpenSSL/1.0.2g PHP/5.6.22 configured -- resuming normal operations
+[Mon Jun 20 12:52:18.209718 2016] [mpm_winnt:notice] [pid 10192:tid 616] AH00456: Apache Lounge VC11 Server built: Apr  9 2016 11:30:31
+[Mon Jun 20 12:52:18.209718 2016] [core:notice] [pid 10192:tid 616] AH00094: Command line: 'C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\bin\\httpd.exe -d C:/Users/ramky/Desktop/summer/wamp/apache2 -f C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\conf\\httpd.conf'
+[Mon Jun 20 12:52:18.213699 2016] [mpm_winnt:notice] [pid 10192:tid 616] AH00418: Parent: Created child process 10572
+[Mon Jun 20 12:52:18.678172 2016] [ssl:warn] [pid 10572:tid 488] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 20 12:52:18.844181 2016] [ssl:warn] [pid 10572:tid 488] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 20 12:52:18.860201 2016] [mpm_winnt:notice] [pid 10572:tid 488] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 20 12:53:17.632209 2016] [:error] [pid 10572:tid 1176] [client ::1:61037] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\send_formdata_members.php on line 2
+[Mon Jun 20 12:53:34.679713 2016] [:error] [pid 10572:tid 1176] [client ::1:61044] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\send_formdata_members.php on line 2, referer: http://localhost/from.html
+[Mon Jun 20 12:57:18.404727 2016] [:error] [pid 10572:tid 1144] [client ::1:61068] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\send_formdata_members.php on line 2, referer: http://localhost/from.html
+[Mon Jun 20 12:59:48.677189 2016] [:error] [pid 10572:tid 1144] [client ::1:61107] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\send_formdata_members.php on line 2, referer: http://localhost/from.html
+[Mon Jun 20 13:01:49.970755 2016] [:error] [pid 10572:tid 1168] [client ::1:61125] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\send_formdata_members.php on line 2, referer: http://localhost/from.html
+[Mon Jun 20 13:08:41.124396 2016] [:error] [pid 10572:tid 1188] [client 127.0.0.1:61367] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\send_formdata_members.php on line 2, referer: http://127.0.0.1/from.html
+[Mon Jun 20 13:09:48.558689 2016] [:error] [pid 10572:tid 1152] [client 127.0.0.1:61392] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\send_formdata_members.php on line 2, referer: http://127.0.0.1/from.html
+[Mon Jun 20 13:12:21.522611 2016] [mpm_winnt:notice] [pid 10192:tid 616] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 20 13:12:23.553891 2016] [mpm_winnt:notice] [pid 10572:tid 488] AH00364: Child: All worker threads have exited.
+[Mon Jun 20 13:12:23.631954 2016] [mpm_winnt:notice] [pid 10192:tid 616] AH00430: Parent: Child process 10572 exited successfully.
+[Mon Jun 20 13:12:24.506964 2016] [ssl:warn] [pid 7472:tid 620] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 20 13:12:24.741340 2016] [ssl:warn] [pid 7472:tid 620] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 20 13:12:24.772607 2016] [mpm_winnt:notice] [pid 7472:tid 620] AH00455: Apache/2.4.20 (Win32) OpenSSL/1.0.2g PHP/5.6.22 configured -- resuming normal operations
+[Mon Jun 20 13:12:24.772607 2016] [mpm_winnt:notice] [pid 7472:tid 620] AH00456: Apache Lounge VC11 Server built: Apr  9 2016 11:30:31
+[Mon Jun 20 13:12:24.772607 2016] [core:notice] [pid 7472:tid 620] AH00094: Command line: 'C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\bin\\httpd.exe -d C:/Users/ramky/Desktop/summer/wamp/apache2 -f C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\conf\\httpd.conf'
+[Mon Jun 20 13:12:24.772607 2016] [mpm_winnt:notice] [pid 7472:tid 620] AH00418: Parent: Created child process 9296
+[Mon Jun 20 13:12:25.367301 2016] [ssl:warn] [pid 9296:tid 508] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 20 13:12:25.539312 2016] [ssl:warn] [pid 9296:tid 508] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Jun 20 13:12:25.563329 2016] [mpm_winnt:notice] [pid 9296:tid 508] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 20 15:06:12.963893 2016] [:error] [pid 9296:tid 1152] [client ::1:62406] PHP Notice:  Undefined index: gender in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\send_formdata_members.php on line 9, referer: http://localhost/from.html
+[Mon Jun 20 15:06:12.963893 2016] [:error] [pid 9296:tid 1152] [client ::1:62406] PHP Notice:  Undefined index: state in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\send_formdata_members.php on line 14, referer: http://localhost/from.html
+[Mon Jun 20 15:06:50.764796 2016] [:error] [pid 9296:tid 1184] [client ::1:62419] PHP Notice:  Undefined index: gender in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\send_formdata_members.php on line 9, referer: http://localhost/from.html
+[Mon Jun 20 15:06:50.764796 2016] [:error] [pid 9296:tid 1184] [client ::1:62419] PHP Notice:  Undefined index: state in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\send_formdata_members.php on line 14, referer: http://localhost/from.html
+[Mon Jun 20 15:08:04.702425 2016] [:error] [pid 9296:tid 1152] [client ::1:62453] PHP Notice:  Undefined index: gender in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\send_formdata_members.php on line 9, referer: http://localhost/from.html
+[Mon Jun 20 15:08:04.702425 2016] [:error] [pid 9296:tid 1152] [client ::1:62453] PHP Notice:  Undefined index: state in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\send_formdata_members.php on line 14, referer: http://localhost/from.html
+[Mon Jun 20 15:08:49.112005 2016] [:error] [pid 9296:tid 1152] [client ::1:62462] PHP Notice:  Undefined index: gender in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\send_formdata_members.php on line 9, referer: http://localhost/from.html
+[Mon Jun 20 15:08:49.112005 2016] [:error] [pid 9296:tid 1152] [client ::1:62462] PHP Notice:  Undefined index: state in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\send_formdata_members.php on line 14, referer: http://localhost/from.html
+[Mon Jun 20 15:09:07.105812 2016] [:error] [pid 9296:tid 1152] [client ::1:62475] PHP Notice:  Undefined index: gender in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\send_formdata_members.php on line 9, referer: http://localhost/from.html
+[Mon Jun 20 15:20:51.383448 2016] [:error] [pid 9296:tid 1152] [client ::1:62576] PHP Notice:  Undefined index: gender in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\signup.php on line 9, referer: http://localhost/template.html
+[Mon Jun 20 15:21:28.071350 2016] [:error] [pid 9296:tid 1152] [client ::1:62604] PHP Notice:  Undefined index: gender in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\signup.php on line 9, referer: http://localhost/template.html
+[Mon Jun 20 21:35:56.273185 2016] [:error] [pid 9296:tid 1132] [client ::1:63225] PHP Notice:  Undefined index: gender in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\signup.php on line 9, referer: http://localhost/template.html
+[Mon Jun 20 22:02:28.654534 2016] [:error] [pid 9296:tid 1100] [client ::1:63572] PHP Notice:  Undefined index: passwd in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\login.php on line 9, referer: http://localhost/template.html
+[Mon Jun 20 22:41:40.814632 2016] [:error] [pid 9296:tid 1176] [client ::1:64045] PHP Notice:  Undefined index: gender in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\signup.php on line 11, referer: http://localhost/template.html
+[Mon Jun 20 22:42:54.875430 2016] [:error] [pid 9296:tid 1164] [client ::1:64062] PHP Notice:  Undefined index: gender in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\signup.php on line 11, referer: http://localhost/template.html
+[Mon Jun 20 22:46:26.072174 2016] [:error] [pid 9296:tid 1172] [client ::1:64128] PHP Notice:  Undefined index: gender in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\signup.php on line 11, referer: http://localhost/template.html
+[Mon Jun 20 22:48:18.892494 2016] [:error] [pid 9296:tid 1124] [client ::1:64167] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\signup.php on line 35, referer: http://localhost/template.html
+[Mon Jun 20 22:48:43.372261 2016] [:error] [pid 9296:tid 1176] [client ::1:64180] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\signup.php on line 35, referer: http://localhost/template.html
+[Mon Jun 20 22:49:27.053794 2016] [:error] [pid 9296:tid 1116] [client ::1:64200] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\signup.php on line 35, referer: http://localhost/template.html
+[Mon Jun 20 22:50:01.287668 2016] [:error] [pid 9296:tid 1124] [client ::1:64215] PHP Notice:  Undefined index: gender in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\signup.php on line 11, referer: http://localhost/template.html
+[Tue Jun 21 10:57:28.468141 2016] [:error] [pid 9296:tid 1100] [client ::1:50462] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'myusername'@'localhost' (using password: YES) in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\Dbconnect.php on line 3
+[Tue Jun 21 10:57:28.468641 2016] [:error] [pid 9296:tid 1100] [client ::1:50462] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\Dbconnect.php on line 3
+[Tue Jun 21 11:46:28.599041 2016] [:error] [pid 9296:tid 1164] [client 127.0.0.1:51402] PHP Fatal error:  Call to a member function query() on null in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apps\\phpmyadmin\\htdocs\\libraries\\mysql_charsets.inc.php on line 21, referer: http://127.0.0.1/phpmyadmin/tbl_structure.php?db=testdb&table=users&token=5e133fafe7ffdea87433aa60f35da20a&goto=tbl_structure.php&back=tbl_structure.php&field=name&change_column=1
+[Tue Jun 21 12:18:25.498017 2016] [:error] [pid 9296:tid 1152] [client ::1:51848] PHP Notice:  Undefined index: name in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\login.php on line 19, referer: http://localhost/login.php
+[Tue Jun 21 12:20:55.705194 2016] [:error] [pid 9296:tid 1108] [client ::1:51887] PHP Notice:  Undefined index: name in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\login.php on line 19, referer: http://localhost/login.php
+[Tue Jun 21 12:21:49.949849 2016] [:error] [pid 9296:tid 1144] [client ::1:51929] PHP Notice:  Undefined index: firstname in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\Index.php on line 28, referer: http://localhost/template.html
+[Tue Jun 21 12:22:00.800923 2016] [:error] [pid 9296:tid 1108] [client ::1:51930] PHP Notice:  Undefined index: name in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\login.php on line 19, referer: http://localhost/login.php
+[Tue Jun 21 12:22:01.932538 2016] [:error] [pid 9296:tid 1108] [client ::1:51930] PHP Notice:  Undefined index: firstname in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\Index.php on line 28, referer: http://localhost/login.php
+[Tue Jun 21 12:22:46.461852 2016] [:error] [pid 9296:tid 1184] [client ::1:51957] PHP Notice:  Undefined index: firstname in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\Index.php on line 28, referer: http://localhost/template.html
+[Tue Jun 21 12:22:55.616607 2016] [:error] [pid 9296:tid 1184] [client ::1:51957] PHP Notice:  Undefined index: name in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\login.php on line 19, referer: http://localhost/login.php
+[Tue Jun 21 12:23:57.261391 2016] [:error] [pid 9296:tid 1184] [client ::1:51983] PHP Notice:  Undefined index: firstname in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\Index.php on line 28, referer: http://localhost/login.php
+[Tue Jun 21 12:24:19.889737 2016] [:error] [pid 9296:tid 1184] [client ::1:51995] PHP Notice:  Undefined index: firstname in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\Index.php on line 28, referer: http://localhost/login.php
+[Tue Jun 21 12:32:40.057305 2016] [:error] [pid 9296:tid 1100] [client ::1:52207] PHP Parse error:  syntax error, unexpected '<' in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\Index.php on line 24, referer: http://localhost/template.html
+[Tue Jun 21 12:32:44.124678 2016] [:error] [pid 9296:tid 1152] [client ::1:52208] PHP Parse error:  syntax error, unexpected '<' in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\Index.php on line 24
+[Wed Jun 29 20:57:11.408164 2016] [:error] [pid 9296:tid 1136] [client ::1:25114] script 'C:/Users/ramky/Desktop/summer/wamp/apache2/htdocs/billmanagement.php' not found or unable to stat, referer: http://localhost/userpage.php
+[Wed Jun 29 20:57:17.807361 2016] [:error] [pid 9296:tid 1136] [client ::1:25114] script 'C:/Users/ramky/Desktop/summer/wamp/apache2/htdocs/watermanagement.php' not found or unable to stat, referer: http://localhost/userpage.php
+[Wed Jun 29 21:38:29.060655 2016] [:error] [pid 9296:tid 1144] [client ::1:26316] script 'C:/Users/ramky/Desktop/summer/wamp/apache2/htdocs/billmanagement.php' not found or unable to stat, referer: http://localhost/userpage.php
+[Wed Jun 29 21:38:34.203651 2016] [:error] [pid 9296:tid 1144] [client ::1:26316] script 'C:/Users/ramky/Desktop/summer/wamp/apache2/htdocs/flowmanagement.php' not found or unable to stat, referer: http://localhost/userpage.php
+[Wed Jun 29 22:42:43.355878 2016] [:error] [pid 9296:tid 1172] [client ::1:27327] script 'C:/Users/ramky/Desktop/summer/wamp/apache2/htdocs/flowmanagement.php' not found or unable to stat, referer: http://localhost/userpage.php
+[Wed Jun 29 22:42:53.177933 2016] [:error] [pid 9296:tid 1172] [client ::1:27338] script 'C:/Users/ramky/Desktop/summer/wamp/apache2/htdocs/flowmanagement.php' not found or unable to stat, referer: http://localhost/userpage.php
+[Wed Jun 29 22:43:08.101311 2016] [:error] [pid 9296:tid 1132] [client ::1:27339] script 'C:/Users/ramky/Desktop/summer/wamp/apache2/htdocs/flowmanagement.php' not found or unable to stat, referer: http://localhost/userpage.php
+[Thu Jun 30 15:39:02.749766 2016] [:error] [pid 9296:tid 1172] [client ::1:38406] PHP Notice:  Undefined index: examplebillnumber in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 8, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:39:02.749766 2016] [:error] [pid 9296:tid 1172] [client ::1:38406] PHP Notice:  Undefined index: examplebillammount in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 9, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:39:02.749766 2016] [:error] [pid 9296:tid 1172] [client ::1:38406] PHP Notice:  Undefined index: exampleSelect1 in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 10, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:44:15.235635 2016] [:error] [pid 9296:tid 1152] [client ::1:38794] PHP Notice:  Undefined index: examplebillnumber in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 8, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:44:15.235635 2016] [:error] [pid 9296:tid 1152] [client ::1:38794] PHP Notice:  Undefined index: examplebillammount in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 9, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:44:15.235635 2016] [:error] [pid 9296:tid 1152] [client ::1:38794] PHP Notice:  Undefined index: exampleSelect1 in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 10, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:48:11.941690 2016] [:error] [pid 9296:tid 1136] [client ::1:38849] PHP Notice:  Undefined index: examplebillnumber in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 10, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:48:11.941690 2016] [:error] [pid 9296:tid 1136] [client ::1:38849] PHP Notice:  Undefined index: examplebillammount in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 11, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:48:11.941690 2016] [:error] [pid 9296:tid 1136] [client ::1:38849] PHP Notice:  Undefined index: exampleSelect1 in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 12, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:48:11.941690 2016] [:error] [pid 9296:tid 1136] [client ::1:38849] PHP Notice:  Undefined variable: link in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 22, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:48:11.941690 2016] [:error] [pid 9296:tid 1136] [client ::1:38849] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 22, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:48:11.941690 2016] [:error] [pid 9296:tid 1136] [client ::1:38849] PHP Notice:  Undefined variable: link in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 22, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:48:11.941690 2016] [:error] [pid 9296:tid 1136] [client ::1:38849] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 22, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:48:30.370052 2016] [:error] [pid 9296:tid 1172] [client ::1:38861] PHP Notice:  Undefined index: examplebillnumber in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 10, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:48:30.370052 2016] [:error] [pid 9296:tid 1172] [client ::1:38861] PHP Notice:  Undefined index: examplebillammount in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 11, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:48:30.370052 2016] [:error] [pid 9296:tid 1172] [client ::1:38861] PHP Notice:  Undefined index: exampleSelect1 in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 12, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:48:30.370052 2016] [:error] [pid 9296:tid 1172] [client ::1:38861] PHP Notice:  Undefined variable: link in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 22, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:48:30.370052 2016] [:error] [pid 9296:tid 1172] [client ::1:38861] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 22, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:48:30.370052 2016] [:error] [pid 9296:tid 1172] [client ::1:38861] PHP Notice:  Undefined variable: link in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 22, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:48:30.370052 2016] [:error] [pid 9296:tid 1172] [client ::1:38861] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 22, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:49:43.283879 2016] [:error] [pid 9296:tid 1184] [client ::1:38895] PHP Notice:  Undefined index: examplebillnumber in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 10, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:49:43.283879 2016] [:error] [pid 9296:tid 1184] [client ::1:38895] PHP Notice:  Undefined index: examplebillammount in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 11, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:49:43.283879 2016] [:error] [pid 9296:tid 1184] [client ::1:38895] PHP Notice:  Undefined index: exampleSelect1 in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 12, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:49:43.283879 2016] [:error] [pid 9296:tid 1184] [client ::1:38895] PHP Notice:  Undefined variable: link in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 25, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:49:43.283879 2016] [:error] [pid 9296:tid 1184] [client ::1:38895] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 25, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:49:43.283879 2016] [:error] [pid 9296:tid 1184] [client ::1:38895] PHP Notice:  Undefined variable: link in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 25, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:49:43.283879 2016] [:error] [pid 9296:tid 1184] [client ::1:38895] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 25, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:50:40.657713 2016] [:error] [pid 9296:tid 1172] [client ::1:38940] PHP Notice:  Undefined index: examplebillnumber in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 10, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:50:40.657713 2016] [:error] [pid 9296:tid 1172] [client ::1:38940] PHP Notice:  Undefined index: examplebillammount in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 11, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:50:40.657713 2016] [:error] [pid 9296:tid 1172] [client ::1:38940] PHP Notice:  Undefined index: exampleSelect1 in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 12, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:50:40.657713 2016] [:error] [pid 9296:tid 1172] [client ::1:38940] PHP Notice:  Undefined variable: link in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 25, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:50:40.657713 2016] [:error] [pid 9296:tid 1172] [client ::1:38940] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 25, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:50:40.657713 2016] [:error] [pid 9296:tid 1172] [client ::1:38940] PHP Notice:  Undefined variable: link in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 25, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:50:40.657713 2016] [:error] [pid 9296:tid 1172] [client ::1:38940] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 25, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:51:29.970450 2016] [:error] [pid 9296:tid 1108] [client ::1:38979] PHP Notice:  Undefined index: examplebillnumber in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 10, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:51:29.970450 2016] [:error] [pid 9296:tid 1108] [client ::1:38979] PHP Notice:  Undefined index: examplebillammount in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 11, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:51:29.970450 2016] [:error] [pid 9296:tid 1108] [client ::1:38979] PHP Notice:  Undefined index: exampleSelect1 in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 12, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:51:29.970450 2016] [:error] [pid 9296:tid 1108] [client ::1:38979] PHP Notice:  Undefined variable: link in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 25, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:51:29.970450 2016] [:error] [pid 9296:tid 1108] [client ::1:38979] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 25, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:51:29.970450 2016] [:error] [pid 9296:tid 1108] [client ::1:38979] PHP Notice:  Undefined variable: link in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 25, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:51:29.970450 2016] [:error] [pid 9296:tid 1108] [client ::1:38979] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 25, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:52:15.399281 2016] [:error] [pid 9296:tid 1136] [client ::1:39015] PHP Notice:  Undefined index: examplebillnumber in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 8, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:52:15.399281 2016] [:error] [pid 9296:tid 1136] [client ::1:39015] PHP Notice:  Undefined index: examplebillammount in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 9, referer: http://localhost/chartjs.php
+[Thu Jun 30 15:52:15.399281 2016] [:error] [pid 9296:tid 1136] [client ::1:39015] PHP Notice:  Undefined index: exampleSelect1 in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 10, referer: http://localhost/chartjs.php
+[Thu Jun 30 16:02:14.419262 2016] [:error] [pid 9296:tid 1108] [client ::1:39154] PHP Notice:  Undefined index: examplebillnumber in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 8, referer: http://localhost/chartjs.php
+[Thu Jun 30 16:02:14.419262 2016] [:error] [pid 9296:tid 1108] [client ::1:39154] PHP Notice:  Undefined index: examplebillammount in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 9, referer: http://localhost/chartjs.php
+[Thu Jun 30 16:02:14.419262 2016] [:error] [pid 9296:tid 1108] [client ::1:39154] PHP Notice:  Undefined index: exampleSelect1 in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\chartjs.php on line 10, referer: http://localhost/chartjs.php
+[Sun Jul 10 21:53:34.446079 2016] [mpm_winnt:notice] [pid 7472:tid 620] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Jul 10 21:53:36.477366 2016] [mpm_winnt:notice] [pid 9296:tid 508] AH00364: Child: All worker threads have exited.
+[Sun Jul 10 21:53:45.391771 2016] [mpm_winnt:notice] [pid 7472:tid 620] AH00430: Parent: Child process 9296 exited successfully.
+[Sun Jul 10 21:55:03.899237 2016] [ssl:warn] [pid 2052:tid 588] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 10 21:55:04.555495 2016] [ssl:warn] [pid 2052:tid 588] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 10 21:55:13.618138 2016] [mpm_winnt:notice] [pid 2052:tid 588] AH00455: Apache/2.4.20 (Win32) OpenSSL/1.0.2g PHP/5.6.22 configured -- resuming normal operations
+[Sun Jul 10 21:55:13.618138 2016] [mpm_winnt:notice] [pid 2052:tid 588] AH00456: Apache Lounge VC11 Server built: Apr  9 2016 11:30:31
+[Sun Jul 10 21:55:13.618138 2016] [core:notice] [pid 2052:tid 588] AH00094: Command line: 'C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\bin\\httpd.exe -d C:/Users/ramky/Desktop/summer/wamp/apache2 -f C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\conf\\httpd.conf'
+[Sun Jul 10 21:55:13.618138 2016] [mpm_winnt:notice] [pid 2052:tid 588] AH00418: Parent: Created child process 3308
+[Sun Jul 10 21:55:14.165004 2016] [ssl:warn] [pid 3308:tid 500] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 10 21:55:14.336881 2016] [ssl:warn] [pid 3308:tid 500] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 10 21:55:14.383757 2016] [mpm_winnt:notice] [pid 3308:tid 500] AH00354: Child: Starting 64 worker threads.
+[Wed Jul 20 16:33:25.580584 2016] [mpm_winnt:notice] [pid 2052:tid 588] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jul 20 16:33:29.361937 2016] [mpm_winnt:notice] [pid 3308:tid 500] AH00364: Child: All worker threads have exited.
+[Wed Jul 20 16:33:34.840210 2016] [mpm_winnt:notice] [pid 2052:tid 588] AH00430: Parent: Child process 3308 exited successfully.
+[Thu Jul 21 10:13:36.690601 2016] [ssl:warn] [pid 5036:tid 588] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 21 10:13:37.174942 2016] [ssl:warn] [pid 5036:tid 588] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 21 10:13:44.034422 2016] [mpm_winnt:notice] [pid 5036:tid 588] AH00455: Apache/2.4.20 (Win32) OpenSSL/1.0.2g PHP/5.6.22 configured -- resuming normal operations
+[Thu Jul 21 10:13:44.034422 2016] [mpm_winnt:notice] [pid 5036:tid 588] AH00456: Apache Lounge VC11 Server built: Apr  9 2016 11:30:31
+[Thu Jul 21 10:13:44.034422 2016] [core:notice] [pid 5036:tid 588] AH00094: Command line: 'C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\bin\\httpd.exe -d C:/Users/ramky/Desktop/summer/wamp/apache2 -f C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\conf\\httpd.conf'
+[Thu Jul 21 10:13:44.034422 2016] [mpm_winnt:notice] [pid 5036:tid 588] AH00418: Parent: Created child process 5796
+[Thu Jul 21 10:13:44.628150 2016] [ssl:warn] [pid 5796:tid 512] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 21 10:13:44.768776 2016] [ssl:warn] [pid 5796:tid 512] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 21 10:13:44.940660 2016] [mpm_winnt:notice] [pid 5796:tid 512] AH00354: Child: Starting 64 worker threads.
+[Thu Jul 21 10:28:08.480554 2016] [mpm_winnt:notice] [pid 5036:tid 588] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jul 21 10:28:10.507376 2016] [mpm_winnt:notice] [pid 5796:tid 512] AH00364: Child: All worker threads have exited.
+[Thu Jul 21 10:28:10.585465 2016] [mpm_winnt:notice] [pid 5036:tid 588] AH00430: Parent: Child process 5796 exited successfully.
+[Thu Jul 21 10:29:09.994981 2016] [ssl:warn] [pid 2080:tid 588] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 21 10:29:10.557484 2016] [ssl:warn] [pid 2080:tid 588] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 21 10:29:23.535958 2016] [mpm_winnt:notice] [pid 2080:tid 588] AH00455: Apache/2.4.20 (Win32) OpenSSL/1.0.2g PHP/5.6.22 configured -- resuming normal operations
+[Thu Jul 21 10:29:23.535958 2016] [mpm_winnt:notice] [pid 2080:tid 588] AH00456: Apache Lounge VC11 Server built: Apr  9 2016 11:30:31
+[Thu Jul 21 10:29:23.535958 2016] [core:notice] [pid 2080:tid 588] AH00094: Command line: 'C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\bin\\httpd.exe -d C:/Users/ramky/Desktop/summer/wamp/apache2 -f C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\conf\\httpd.conf'
+[Thu Jul 21 10:29:23.551559 2016] [mpm_winnt:notice] [pid 2080:tid 588] AH00418: Parent: Created child process 3764
+[Thu Jul 21 10:29:24.176555 2016] [ssl:warn] [pid 3764:tid 468] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 21 10:29:24.395311 2016] [ssl:warn] [pid 3764:tid 468] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 21 10:29:24.817242 2016] [mpm_winnt:notice] [pid 3764:tid 468] AH00354: Child: Starting 64 worker threads.
+[Thu Jul 21 10:32:53.015344 2016] [mpm_winnt:notice] [pid 2080:tid 588] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jul 21 10:32:55.046627 2016] [mpm_winnt:notice] [pid 3764:tid 468] AH00364: Child: All worker threads have exited.
+[Thu Jul 21 10:32:55.202855 2016] [mpm_winnt:notice] [pid 2080:tid 588] AH00430: Parent: Child process 3764 exited successfully.
+[Thu Jul 21 10:33:01.515406 2016] [ssl:warn] [pid 6976:tid 616] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 21 10:33:01.796661 2016] [ssl:warn] [pid 6976:tid 616] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 21 10:33:07.140494 2016] [mpm_winnt:notice] [pid 6976:tid 616] AH00455: Apache/2.4.20 (Win32) OpenSSL/1.0.2g PHP/5.6.22 configured -- resuming normal operations
+[Thu Jul 21 10:33:07.140494 2016] [mpm_winnt:notice] [pid 6976:tid 616] AH00456: Apache Lounge VC11 Server built: Apr  9 2016 11:30:31
+[Thu Jul 21 10:33:07.140494 2016] [core:notice] [pid 6976:tid 616] AH00094: Command line: 'C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\bin\\httpd.exe -d C:/Users/ramky/Desktop/summer/wamp/apache2 -f C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\conf\\httpd.conf'
+[Thu Jul 21 10:33:07.156111 2016] [mpm_winnt:notice] [pid 6976:tid 616] AH00418: Parent: Created child process 4940
+[Thu Jul 21 10:33:07.609241 2016] [ssl:warn] [pid 4940:tid 520] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 21 10:33:07.843619 2016] [ssl:warn] [pid 4940:tid 520] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 21 10:33:07.859245 2016] [mpm_winnt:notice] [pid 4940:tid 520] AH00354: Child: Starting 64 worker threads.
+[Thu Jul 21 11:16:33.726379 2016] [mpm_winnt:notice] [pid 6976:tid 616] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Jul 21 11:16:35.757709 2016] [mpm_winnt:notice] [pid 4940:tid 520] AH00364: Child: All worker threads have exited.
+[Thu Jul 21 11:16:35.788907 2016] [mpm_winnt:notice] [pid 6976:tid 616] AH00430: Parent: Child process 4940 exited successfully.
+[Thu Jul 21 11:17:56.075072 2016] [ssl:warn] [pid 2016:tid 580] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 21 11:17:56.684417 2016] [ssl:warn] [pid 2016:tid 580] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 21 11:18:04.512682 2016] [mpm_winnt:notice] [pid 2016:tid 580] AH00455: Apache/2.4.20 (Win32) OpenSSL/1.0.2g PHP/5.6.22 configured -- resuming normal operations
+[Thu Jul 21 11:18:04.512682 2016] [mpm_winnt:notice] [pid 2016:tid 580] AH00456: Apache Lounge VC11 Server built: Apr  9 2016 11:30:31
+[Thu Jul 21 11:18:04.512682 2016] [core:notice] [pid 2016:tid 580] AH00094: Command line: 'C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\bin\\httpd.exe -d C:/Users/ramky/Desktop/summer/wamp/apache2 -f C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\conf\\httpd.conf'
+[Thu Jul 21 11:18:04.512682 2016] [mpm_winnt:notice] [pid 2016:tid 580] AH00418: Parent: Created child process 3424
+[Thu Jul 21 11:18:04.981386 2016] [ssl:warn] [pid 3424:tid 500] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 21 11:18:05.106403 2016] [ssl:warn] [pid 3424:tid 500] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jul 21 11:18:05.450142 2016] [mpm_winnt:notice] [pid 3424:tid 500] AH00354: Child: Starting 64 worker threads.
+[Tue Jul 26 12:08:03.510413 2016] [mpm_winnt:notice] [pid 2016:tid 580] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jul 26 12:08:06.635455 2016] [mpm_winnt:notice] [pid 3424:tid 500] AH00364: Child: All worker threads have exited.
+[Tue Jul 26 12:08:06.776099 2016] [mpm_winnt:notice] [pid 2016:tid 580] AH00430: Parent: Child process 3424 exited successfully.
+[Tue Jul 26 12:09:00.340495 2016] [ssl:warn] [pid 2384:tid 564] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jul 26 12:09:00.496748 2016] [ssl:warn] [pid 2384:tid 564] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jul 26 12:09:04.971932 2016] [mpm_winnt:notice] [pid 2384:tid 564] AH00455: Apache/2.4.20 (Win32) OpenSSL/1.0.2g PHP/5.6.22 configured -- resuming normal operations
+[Tue Jul 26 12:09:04.971932 2016] [mpm_winnt:notice] [pid 2384:tid 564] AH00456: Apache Lounge VC11 Server built: Apr  9 2016 11:30:31
+[Tue Jul 26 12:09:04.971932 2016] [core:notice] [pid 2384:tid 564] AH00094: Command line: 'C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\bin\\httpd.exe -d C:/Users/ramky/Desktop/summer/wamp/apache2 -f C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\conf\\httpd.conf'
+[Tue Jul 26 12:09:04.971932 2016] [mpm_winnt:notice] [pid 2384:tid 564] AH00418: Parent: Created child process 3448
+[Tue Jul 26 12:09:05.487544 2016] [ssl:warn] [pid 3448:tid 508] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jul 26 12:09:05.596940 2016] [ssl:warn] [pid 3448:tid 508] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jul 26 12:09:05.753226 2016] [mpm_winnt:notice] [pid 3448:tid 508] AH00354: Child: Starting 64 worker threads.
+[Fri Jul 29 16:33:54.569063 2016] [:error] [pid 3448:tid 1136] [client ::1:30956] PHP Fatal error:  Call to undefined function connection() in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\index1.php on line 5
+[Fri Jul 29 16:33:59.853314 2016] [:error] [pid 3448:tid 1152] [client ::1:30977] PHP Fatal error:  Call to undefined function connection() in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\index1.php on line 5
+[Fri Jul 29 16:35:42.950012 2016] [:error] [pid 3448:tid 1152] [client ::1:30991] script 'C:/Users/ramky/Desktop/summer/wamp/apache2/htdocs/index2.php' not found or unable to stat
+[Fri Jul 29 16:36:04.720100 2016] [:error] [pid 3448:tid 1152] [client ::1:31005] PHP Fatal error:  Call to undefined function connection() in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\index1.php on line 5
+[Fri Jul 29 16:37:26.320601 2016] [:error] [pid 3448:tid 1184] [client ::1:31026] PHP Fatal error:  Call to undefined function connection() in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\add.php on line 4
+[Fri Jul 29 16:43:51.400951 2016] [:error] [pid 3448:tid 1160] [client ::1:31043] script 'C:/Users/ramky/Desktop/summer/wamp/apache2/htdocs/add.php' not found or unable to stat
+[Fri Jul 29 16:44:15.698797 2016] [:error] [pid 3448:tid 1152] [client ::1:31051] PHP Fatal error:  Call to undefined function connection() in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\add.php on line 4
+[Fri Jul 29 16:44:20.120814 2016] [:error] [pid 3448:tid 1184] [client ::1:31052] PHP Fatal error:  Call to undefined function connection() in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\add.php on line 4
+[Fri Jul 29 16:44:28.691848 2016] [:error] [pid 3448:tid 1168] [client ::1:31062] PHP Fatal error:  Call to undefined function connection() in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\mine.php on line 5
+[Fri Jul 29 16:52:01.166334 2016] [:error] [pid 3448:tid 1176] [client ::1:31181] PHP Fatal error:  Call to undefined function connection() in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\mine.php on line 5
+[Fri Jul 29 16:52:08.357330 2016] [:error] [pid 3448:tid 1136] [client ::1:31185] PHP Fatal error:  Call to undefined function connection() in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\add.php on line 4
+[Fri Jul 29 16:52:21.003972 2016] [:error] [pid 3448:tid 1168] [client ::1:31193] PHP Fatal error:  Call to undefined function connection() in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\mine.php on line 5
+[Fri Jul 29 16:55:02.727825 2016] [:error] [pid 3448:tid 1176] [client ::1:31212] PHP Fatal error:  Call to undefined function connection() in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\add.php on line 4
+[Fri Jul 29 16:59:20.582178 2016] [:error] [pid 3448:tid 1152] [client ::1:31228] PHP Fatal error:  Call to undefined function connection() in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\add.php on line 4
+[Fri Jul 29 17:01:42.562443 2016] [:error] [pid 3448:tid 1160] [client ::1:31239] PHP Fatal error:  Call to undefined function connection() in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\mine.php on line 5
+[Fri Jul 29 17:03:34.839870 2016] [:error] [pid 3448:tid 1136] [client ::1:31245] PHP Fatal error:  Call to undefined function connection() in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\add.php on line 4
+[Fri Jul 29 17:04:27.887067 2016] [:error] [pid 3448:tid 1136] [client ::1:31258] PHP Fatal error:  Call to undefined function connection() in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\add.php on line 4
+[Fri Jul 29 17:05:41.574672 2016] [:error] [pid 3448:tid 1136] [client ::1:31269] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'templog' in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\Dbconnect.php on line 3
+[Fri Jul 29 17:05:41.575172 2016] [:error] [pid 3448:tid 1136] [client ::1:31269] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\Dbconnect.php on line 3
+[Fri Jul 29 17:06:18.765041 2016] [:error] [pid 3448:tid 1136] [client ::1:31272] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'templog' in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\Dbconnect.php on line 3
+[Fri Jul 29 17:06:18.765541 2016] [:error] [pid 3448:tid 1136] [client ::1:31272] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\Dbconnect.php on line 3
+[Fri Jul 29 17:06:23.008315 2016] [:error] [pid 3448:tid 1136] [client ::1:31272] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'templog' in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\Dbconnect.php on line 3
+[Fri Jul 29 17:06:23.009316 2016] [:error] [pid 3448:tid 1136] [client ::1:31272] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\Dbconnect.php on line 3
+[Fri Jul 29 17:08:56.729914 2016] [:error] [pid 3448:tid 1136] [client ::1:31303] PHP Fatal error:  Call to undefined function connection() in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\add.php on line 4
+[Fri Jul 29 17:09:40.047488 2016] [:error] [pid 3448:tid 1152] [client ::1:31314] PHP Fatal error:  Call to undefined function connection() in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\add.php on line 4
+[Fri Jul 29 17:13:27.384833 2016] [:error] [pid 3448:tid 1136] [client ::1:31328] PHP Fatal error:  Call to undefined function connection() in C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\htdocs\\mine.php on line 5
+[Sat Aug 06 10:15:43.134667 2016] [ssl:warn] [pid 1968:tid 620] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 06 10:15:43.681602 2016] [core:warn] [pid 1968:tid 620] AH00098: pid file C:/Users/ramky/Desktop/summer/wamp/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Aug 06 10:15:43.744049 2016] [ssl:warn] [pid 1968:tid 620] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 06 10:15:57.166148 2016] [mpm_winnt:notice] [pid 1968:tid 620] AH00455: Apache/2.4.20 (Win32) OpenSSL/1.0.2g PHP/5.6.22 configured -- resuming normal operations
+[Sat Aug 06 10:15:57.166148 2016] [mpm_winnt:notice] [pid 1968:tid 620] AH00456: Apache Lounge VC11 Server built: Apr  9 2016 11:30:31
+[Sat Aug 06 10:15:57.166148 2016] [core:notice] [pid 1968:tid 620] AH00094: Command line: 'C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\bin\\httpd.exe -d C:/Users/ramky/Desktop/summer/wamp/apache2 -f C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\conf\\httpd.conf'
+[Sat Aug 06 10:15:57.166148 2016] [mpm_winnt:notice] [pid 1968:tid 620] AH00418: Parent: Created child process 3160
+[Sat Aug 06 10:15:57.681746 2016] [ssl:warn] [pid 3160:tid 508] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 06 10:15:57.900481 2016] [ssl:warn] [pid 3160:tid 508] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Aug 06 10:15:58.978618 2016] [mpm_winnt:notice] [pid 3160:tid 508] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 11 20:17:44.939353 2016] [mpm_winnt:notice] [pid 1968:tid 620] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 11 20:17:48.720704 2016] [mpm_winnt:notice] [pid 3160:tid 508] AH00364: Child: All worker threads have exited.
+[Thu Aug 11 20:17:54.230821 2016] [mpm_winnt:notice] [pid 1968:tid 620] AH00430: Parent: Child process 3160 exited successfully.
+[Thu Aug 11 20:19:21.920522 2016] [ssl:warn] [pid 1212:tid 544] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 11 20:19:22.811160 2016] [ssl:warn] [pid 1212:tid 544] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 11 20:19:28.936263 2016] [mpm_winnt:notice] [pid 1212:tid 544] AH00455: Apache/2.4.20 (Win32) OpenSSL/1.0.2g PHP/5.6.22 configured -- resuming normal operations
+[Thu Aug 11 20:19:28.936263 2016] [mpm_winnt:notice] [pid 1212:tid 544] AH00456: Apache Lounge VC11 Server built: Apr  9 2016 11:30:31
+[Thu Aug 11 20:19:28.936263 2016] [core:notice] [pid 1212:tid 544] AH00094: Command line: 'C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\bin\\httpd.exe -d C:/Users/ramky/Desktop/summer/wamp/apache2 -f C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\conf\\httpd.conf'
+[Thu Aug 11 20:19:28.936263 2016] [mpm_winnt:notice] [pid 1212:tid 544] AH00418: Parent: Created child process 3332
+[Thu Aug 11 20:19:29.405005 2016] [ssl:warn] [pid 3332:tid 440] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 11 20:19:29.701885 2016] [ssl:warn] [pid 3332:tid 440] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 11 20:19:30.608200 2016] [mpm_winnt:notice] [pid 3332:tid 440] AH00354: Child: Starting 64 worker threads.
+[Mon Aug 15 12:51:26.013280 2016] [mpm_winnt:notice] [pid 1212:tid 544] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Aug 15 12:51:29.794626 2016] [mpm_winnt:notice] [pid 3332:tid 440] AH00364: Child: All worker threads have exited.
+[Mon Aug 15 12:51:37.377021 2016] [mpm_winnt:notice] [pid 1212:tid 544] AH00430: Parent: Child process 3332 exited successfully.
+[Mon Aug 15 12:53:05.278407 2016] [ssl:warn] [pid 1416:tid 596] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 15 12:53:06.309686 2016] [ssl:warn] [pid 1416:tid 596] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 15 12:53:12.483696 2016] [mpm_winnt:notice] [pid 1416:tid 596] AH00455: Apache/2.4.20 (Win32) OpenSSL/1.0.2g PHP/5.6.22 configured -- resuming normal operations
+[Mon Aug 15 12:53:12.483696 2016] [mpm_winnt:notice] [pid 1416:tid 596] AH00456: Apache Lounge VC11 Server built: Apr  9 2016 11:30:31
+[Mon Aug 15 12:53:12.483696 2016] [core:notice] [pid 1416:tid 596] AH00094: Command line: 'C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\bin\\httpd.exe -d C:/Users/ramky/Desktop/summer/wamp/apache2 -f C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\conf\\httpd.conf'
+[Mon Aug 15 12:53:12.499270 2016] [mpm_winnt:notice] [pid 1416:tid 596] AH00418: Parent: Created child process 3368
+[Mon Aug 15 12:53:12.968026 2016] [ssl:warn] [pid 3368:tid 520] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 15 12:53:13.139904 2016] [ssl:warn] [pid 3368:tid 520] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Aug 15 12:53:13.561782 2016] [mpm_winnt:notice] [pid 3368:tid 520] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 16 13:31:00.727065 2016] [mpm_winnt:notice] [pid 1416:tid 596] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 16 13:31:03.289596 2016] [mpm_winnt:notice] [pid 3368:tid 520] AH00364: Child: All worker threads have exited.
+[Tue Aug 16 13:31:06.119072 2016] [mpm_winnt:notice] [pid 1416:tid 596] AH00430: Parent: Child process 3368 exited successfully.
+[Tue Aug 16 13:32:07.497134 2016] [ssl:warn] [pid 1048:tid 580] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Aug 16 13:32:07.684634 2016] [ssl:warn] [pid 1048:tid 580] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Aug 16 13:32:13.200624 2016] [mpm_winnt:notice] [pid 1048:tid 580] AH00455: Apache/2.4.20 (Win32) OpenSSL/1.0.2g PHP/5.6.22 configured -- resuming normal operations
+[Tue Aug 16 13:32:13.200624 2016] [mpm_winnt:notice] [pid 1048:tid 580] AH00456: Apache Lounge VC11 Server built: Apr  9 2016 11:30:31
+[Tue Aug 16 13:32:13.200624 2016] [core:notice] [pid 1048:tid 580] AH00094: Command line: 'C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\bin\\httpd.exe -d C:/Users/ramky/Desktop/summer/wamp/apache2 -f C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\conf\\httpd.conf'
+[Tue Aug 16 13:32:13.200624 2016] [mpm_winnt:notice] [pid 1048:tid 580] AH00418: Parent: Created child process 3332
+[Tue Aug 16 13:32:13.731883 2016] [ssl:warn] [pid 3332:tid 504] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Aug 16 13:32:13.856884 2016] [ssl:warn] [pid 3332:tid 504] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Aug 16 13:32:13.903759 2016] [mpm_winnt:notice] [pid 3332:tid 504] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 25 16:15:34.465166 2016] [ssl:warn] [pid 2076:tid 620] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 25 16:15:35.105767 2016] [core:warn] [pid 2076:tid 620] AH00098: pid file C:/Users/ramky/Desktop/summer/wamp/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Aug 25 16:15:35.168266 2016] [ssl:warn] [pid 2076:tid 620] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 25 16:15:46.133578 2016] [mpm_winnt:notice] [pid 2076:tid 620] AH00455: Apache/2.4.20 (Win32) OpenSSL/1.0.2g PHP/5.6.22 configured -- resuming normal operations
+[Thu Aug 25 16:15:46.133578 2016] [mpm_winnt:notice] [pid 2076:tid 620] AH00456: Apache Lounge VC11 Server built: Apr  9 2016 11:30:31
+[Thu Aug 25 16:15:46.133578 2016] [core:notice] [pid 2076:tid 620] AH00094: Command line: 'C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\bin\\httpd.exe -d C:/Users/ramky/Desktop/summer/wamp/apache2 -f C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\conf\\httpd.conf'
+[Thu Aug 25 16:15:46.133578 2016] [mpm_winnt:notice] [pid 2076:tid 620] AH00418: Parent: Created child process 1104
+[Thu Aug 25 16:15:46.696034 2016] [ssl:warn] [pid 1104:tid 492] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 25 16:15:47.008538 2016] [ssl:warn] [pid 1104:tid 492] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 25 16:15:48.414807 2016] [mpm_winnt:notice] [pid 1104:tid 492] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 25 16:45:31.487612 2016] [ssl:warn] [pid 2376:tid 648] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 25 16:45:31.931836 2016] [core:warn] [pid 2376:tid 648] AH00098: pid file C:/Users/ramky/Desktop/summer/wamp/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Aug 25 16:45:31.988824 2016] [ssl:warn] [pid 2376:tid 648] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 25 16:45:39.697417 2016] [mpm_winnt:notice] [pid 2376:tid 648] AH00455: Apache/2.4.20 (Win32) OpenSSL/1.0.2g PHP/5.6.22 configured -- resuming normal operations
+[Thu Aug 25 16:45:39.697417 2016] [mpm_winnt:notice] [pid 2376:tid 648] AH00456: Apache Lounge VC11 Server built: Apr  9 2016 11:30:31
+[Thu Aug 25 16:45:39.697417 2016] [core:notice] [pid 2376:tid 648] AH00094: Command line: 'C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\bin\\httpd.exe -d C:/Users/ramky/Desktop/summer/wamp/apache2 -f C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\conf\\httpd.conf'
+[Thu Aug 25 16:45:39.699466 2016] [mpm_winnt:notice] [pid 2376:tid 648] AH00418: Parent: Created child process 3468
+[Thu Aug 25 16:45:40.263014 2016] [ssl:warn] [pid 3468:tid 164] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 25 16:45:40.502011 2016] [ssl:warn] [pid 3468:tid 164] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 25 16:45:40.797099 2016] [mpm_winnt:notice] [pid 3468:tid 164] AH00354: Child: Starting 64 worker threads.
+[Fri Aug 26 10:55:47.022374 2016] [ssl:warn] [pid 2104:tid 588] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Aug 26 10:55:47.415802 2016] [core:warn] [pid 2104:tid 588] AH00098: pid file C:/Users/ramky/Desktop/summer/wamp/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Aug 26 10:55:47.493930 2016] [ssl:warn] [pid 2104:tid 588] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Aug 26 10:55:55.509662 2016] [mpm_winnt:notice] [pid 2104:tid 588] AH00455: Apache/2.4.20 (Win32) OpenSSL/1.0.2g PHP/5.6.22 configured -- resuming normal operations
+[Fri Aug 26 10:55:55.509662 2016] [mpm_winnt:notice] [pid 2104:tid 588] AH00456: Apache Lounge VC11 Server built: Apr  9 2016 11:30:31
+[Fri Aug 26 10:55:55.509662 2016] [core:notice] [pid 2104:tid 588] AH00094: Command line: 'C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\bin\\httpd.exe -d C:/Users/ramky/Desktop/summer/wamp/apache2 -f C:\\Users\\ramky\\Desktop\\summer\\wamp\\apache2\\conf\\httpd.conf'
+[Fri Aug 26 10:55:55.509662 2016] [mpm_winnt:notice] [pid 2104:tid 588] AH00418: Parent: Created child process 2944
+[Fri Aug 26 10:55:56.087788 2016] [ssl:warn] [pid 2944:tid 492] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Aug 26 10:55:56.306541 2016] [ssl:warn] [pid 2944:tid 492] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Aug 26 10:55:56.322167 2016] [mpm_winnt:notice] [pid 2944:tid 492] AH00354: Child: Starting 64 worker threads.
+[Mon Aug 29 17:38:17.656870 2016] [mpm_winnt:notice] [pid 2104:tid 588] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Aug 29 17:38:20.485010 2016] [mpm_winnt:notice] [pid 2944:tid 492] AH00364: Child: All worker threads have exited.

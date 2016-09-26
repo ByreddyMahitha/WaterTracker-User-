@@ -1,0 +1,8 @@
+package org.eclipse.wtp.sample.classschedule;
+
+import javax.servlet.Servlet;
+import javax.servlet.http.HttpServlet;
+
+public class ScheduleServlet extends HttpServlet implements Servlet {
+
+}

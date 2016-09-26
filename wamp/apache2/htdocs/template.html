@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title> Smart Water Tracker </title>
+<meta name="description" content="Smart Water Tracker">
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+</head>
+
+<body data-spy="scroll" data-target="#my-navbar">
+  <!--navbar header-->
+<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar" >
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a href="" class="navbar-brand">Smart Water Tracker</a>
+      </div><!--navbar header-->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <div class="btn-toolbar ">
+
+
+             <a href="Register.php" class="btn   btn-warning btn-sm navbar-btn navbar-right">SignUp</a>
+              <a href="login.php" class="btn   btn-warning btn-sm navbar-btn navbar-right">LogIn</a>
+
+
+            <ul class="nav navbar-nav">
+              <li><a href="#about">About</a>
+              <li><a href="#equipment">Equipment</a>
+                <li><a href="#feedback">Feedback</a>
+              <li><a href="#faq">FAQ</a>
+              <li><a href="#contact">ContactUs</a>
+            </ul>
+            </div>
+        </div>
+      </div><!--end container-->
+</nav><!--end navbar-->
+
+<!--jumbotron-->
+<div class="jumbotron" style="background-image: url(http://www.howitworksdaily.com/wp-content/uploads/2015/05/Droplets-Water.jpg); background-size: 100%;">
+  <div class="container text-center">
+
+    <h1>Smart Water Tracker</h1>
+      <p> A smart App that manages your water usage and water bills. </p>
+      <div class="btn-group">
+
+        <a href="" onclick="window.open('https://www.google.com/maps/place/oddWires/@37.7706754,-121.9751033,17z/data=!3m1!4b1!4m5!3m4!1s0x808ff2be61f51563:0xd3e764e40cb2fc57!8m2!3d37.7706712!4d-121.9729146')" class="btn btn-lg btn-warning">Visit store</a>
+
+      </div>
+  </div><!-- end container-->
+</div><!--jumbotron end-->
+
+<!--About-->
+<div class="container">
+  <section>
+    <div class="page-header" id="about">
+      <h2>About<small> Check out the information regarding the Smart Water Tracker!</small></h2>
+    </div><!--end header-->
+    <div class="rows">
+      <div class="col-lg-8">
+        <h3>Water Management</h3>
+        <p>Water resource management is the activity of planning, developing, distributing and managing the optimum use of water resources. It is a sub-set of water cycle management. Ideally, water resource management planning has regard to all the competing demands for water and seeks to allocate water on an equitable basis to satisfy all uses and demands. As with other resource management, this is rarely possible in practice.</p>
+      </div><!--end column-->
+      <div class="col-lg-4">
+        <img src="tap.jpg" class="img-responsive" alt="water flow sensor ">
+      </div><!--end col4-->
+    </div><!--end rows-->
+    <div class="rows">
+      <div class="col-lg-8">
+        <h3>Water bill management</h3>
+        <p>Water flow sensor consists of a plastic valve body, a water rotor, and a hall-effect sensor. When water flows through the rotor, rotor rolls. Its speed changes with different rate of flow. The hall-effect sensor outputs the corresponding pulse Signal.</p>
+      </div><!--end column-->
+      <div class="col-lg-4">
+        <img src="bill.jpg" class="img-responsive" alt="water flow sensor ">
+      </div><!--end col4-->
+    </div><!--end rows-->
+
+  </section>
+</div><!--end container-->
+
+
+<!--features-->
+<div class="container">
+  <section>
+    <div class="page-header" id="equipment">
+      <h2>Equipment<small> Check out the equipment needed!</small></h2>
+    </div><!--end header-->
+    <div class="rows">
+      <div class="col-lg-8">
+        <h3>Moisture Sensor</h3>
+        <p>Moisture sensor consists of a plastic valve body, a water rotor, and a hall-effect sensor. When water flows through the rotor, rotor rolls. Its speed changes with different rate of flow. The hall-effect sensor outputs the corresponding pulse Signal.</p>
+      </div><!--end column-->
+      <div class="col-lg-4">
+        <img src="moisture sensor.jpg" class="img-responsive" alt="moisture sensor ">
+      </div><!--end col4-->
+    </div><!--end rows-->
+    <div class="rows">
+      <div class="col-lg-8">
+        <h3>Humidity sensor</h3>
+        <p>This humidity sensor provides air humidity detection function. As the huymidity exceeds the limits set, it will alarm. It has excellent reliability and stability.</p>
+      </div><!--end column-->
+      <div class="col-lg-4">
+        <img src="humidity.jpg" class="img-responsive" alt="humidity sensor ">
+      </div><!--end col4-->
+    </div><!--end rows-->
+    <div class="rows">
+      <div class="col-lg-8">
+        <h3>Grove relay</h3>
+        <p>Grove-relay is a digital normally open switch which is used to control the water pump.</p>
+      </div><!--end column-->
+      <div class="col-lg-4">
+        <img src="relay.jpg" class="img-responsive" alt="relay ">
+      </div><!--end col4-->
+    </div><!--end rows-->
+    <div class="rows">
+      <div class="col-lg-8">
+        <h3>Grove encoder</h3>
+        <p>Grove encoder module is an incremental rotary encoder. The grove encoder has the standard grove interface and can be applied to adjust the knob.</p>
+      </div><!--end column-->
+      <div class="col-lg-4">
+        <img src="encoder.jpg" class="img-responsive" alt="encoder ">
+      </div><!--end col4-->
+    </div><!--end rows-->
+    <div class="rows">
+      <div class="col-lg-8">
+        <h3>Grove OLED Display</h3>
+        <p>It is a 16 color grayscale, 128x64 dot matrix OLED display with grove compatible 4pin l2C interface. Comparing to LCD, OLED screens are more competitive, which has a number of advantages such as high brightness, self-emission, high contrast ratio, slim outline, wide view angle, wide temperature range and low power consumption. It was used to display different parameters detected.</p>
+      </div><!--end column-->
+      <div class="col-lg-4">
+        <img src="oleddisplay.jpg" class="img-responsive" alt="oleddisplay ">
+      </div><!--end col4-->
+    </div><!--end rows-->
+    <div class="rows">
+      <div class="col-lg-8">
+        <h3>Grove Button</h3>
+        <p>The grove button is a momentary push button. It contains one indpendent momentary on/off button. "Momentary" means that the button rebounds on its own after it is released.</p>
+      </div><!--end column-->
+      <div class="col-lg-4">
+        <img src="buttongrove.jpg" class="img-responsive" alt="buttongrove ">
+      </div><!--end col4-->
+    </div><!--end rows-->
+    <div class="rows">
+      <div class="col-lg-8">
+        <h3>Grove BaseShield</h3>
+        <p>As an expansion board, Base shield v2 has many grove connectors, making it convinient to plug more modules. It is compatible with arduino, which equips your kit with more extensionality.</p>
+      </div><!--end column-->
+      <div class="col-lg-4">
+        <img src="baseshield.png" class="img-responsive" alt="baseshield ">
+      </div><!--end col4-->
+    </div><!--end rows-->
+    <div class="rows">
+      <div class="col-lg-8">
+        <h3>Water flow sensor</h3>
+        <p>Water flow sensor consists of a plastic valve body, a water rotor, and a hall-effect sensor. When water flows through the rotor, rotor rolls. Its speed changes with different flow rate. The hall-effect sensor outputs the corresponding pulse signal. It helps you to control your water flow precisely.</p>
+      </div><!--end column-->
+      <div class="col-lg-4">
+        <img src="waterflowsensor.jpg" class="img-responsive" alt="waterflowsensor ">
+      </div><!--end col4-->
+    </div><!--end rows-->
+    <div class="rows">
+      <div class="col-lg-8">
+        <h3>Raspberry Pi</h3>
+        <p>The Raspberry Pi is a low cost, credit-card sized computer that plugs into a computer monitor or TV, and uses a standard keyboard and mouse. It is a capable little device that enables people of all ages to explore computing, and to learn how to program in languages like Scratch and Python.</p>
+      </div><!--end column-->
+      <div class="col-lg-4">
+        <img src="raspberrypi2.png" class="img-responsive" alt="raspberrypi ">
+      </div><!--end col4-->
+    </div><!--end rows-->
+    <div class="rows">
+      <div class="col-lg-8">
+        <h3>Smart Phone</h3>
+        <p>A mobile phone is a portable telephone that can make and receive calls over a radio frequency carrier while the user is moving within a telephone service area. The radio frequency link establishes a connection to the switching systems of a mobile phone operator, which provides access to the public switched telephone network (PSTN). Most modern mobile telephone services use a cellular network architecture, and therefore mobile telephones are often also called cellular telephones or cell phones. In addition to telephony, 2000s-era mobile phones support a variety of other services, such as text messaging, MMS, email, Internet access, short-range wireless communications (infrared, Bluetooth), business applications, gaming, and digital photography. Mobile phones which offer these and more general computing capabilities are referred to as smartphones.</p>
+      </div><!--end column-->
+      <div class="col-lg-4">
+        <img src="mobile.jpg" class="img-responsive" alt="mobile ">
+      </div><!--end col4-->
+    </div><!--end rows-->
+  </section><!--end section-->
+</div><!--end container-->
+
+<!--feedback-->
+<div class="container">
+  <section>
+    <div class="page-header" id="feedback"></div>
+      <h2>Feedback<small> check out the awesome feedback!</small></h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <blockquote>
+              <p>This is really good one. I actually saved 300$ on my water bill.</p>
+                <footer>Mounika</footer>
+            </blockquote>
+          </div>
+          <div class="col-lg-4">
+            <blockquote>
+              <p>This is really excellent. I can control the water usage in my house.</p>
+                <footer>charmi</footer>
+            </blockquote>
+          </div>
+          <div class="col-lg-4">
+            <blockquote>
+              <p>This is fantastic. I can stop the water flow when I am out of home.  <p>
+                <footer>Mahitha</footer>
+            </blockquote>
+          </div>
+        </div><!--end row-->
+      </section>
+</div><!--end container-->
+
+<!--call to action-->
+
+
+<!--faq-->
+<div class="container">
+  <section>
+    <div class="page-header" id="faq">
+      <h2>FAQ<small> Check out customer queries!</small></h2>
+    </div><!--end header-->
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse1">Which version of Raspberry Pi is preferable?</a>
+        </h4>
+      </div><!--end panel heading-->
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">We generally suggest version 2 or 3 since they have LTE and Wi-Fi options.</div>
+      </div><!--end panel collapse-->
+    </div><!--end panel-default-->
+  </div><!--end panel group-->
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse2">How many raspberry pi's do I need?</a>
+        </h4>
+      </div><!--end panel heading-->
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">It actually depends on the architecture of your house. it is suggestable you maintain one for each domain( kitchen, backyard, bathroom etc)</div>
+      </div><!--end panel collapse-->
+    </div><!--end panel-default-->
+  </div><!--end panel group-->
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse3">What is the maximum water limit that I can set?</a>
+        </h4>
+      </div><!--end panel heading-->
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">It depends on the water usage of your house and also the water supply in your community.</div>
+      </div><!--end panel collapse-->
+    </div><!--end panel-default-->
+  </div><!--end panel group-->
+</section>
+</div>
+
+<!--contact us-->
+<div class="container">
+<section>
+  <div class="page-header" id="contact">
+    <h2>Contact Us<small> Contact details!</small></h2>
+  </div><!--end header-->
+  <div class="row">
+    <div class="col-lg-4">
+      <p> Feel free to contact us...!</p>
+      <address>
+        <strong>Smart Water Tracker Pvt Ltd.</strong><br>
+        101E San fernando Street<br>
+        101 san Fernando Apt<br>
+        Unit #131<br>
+        Ph: (925)-549-5443.
+      </address>
+    </div><!--end collg4-->
+    <div class="col-lg-8">
+      <form action="" class="form-horizontal">
+        <div class="form-group">
+          <label for="user-name" class="col-lg-2 control-label">Name</label>
+          <div class="col-lg-10">
+            <input type="text" class="form-control" id="user-name" placeholder="Enter your Name">
+          </div><!--end collg10-->
+        </div><!--end from group-->
+        <div class="form-group">
+          <label for="user-email" class="col-lg-2 control-label">Email</label>
+          <div class="col-lg-10">
+            <input type="text" class="form-control" id="user-email" placeholder="Enter your Email Id">
+          </div><!--end collg10-->
+        </div><!--end from group-->
+        <div class="form-group">
+          <label for="user-message" class="col-lg-2 control-label">Message</label>
+          <div class="col-lg-10">
+            <textarea name="user-message" id="user-message" class="form-control" cols="20" rows="10" placeholder="Enter your message">
+            </textarea>
+          </div><!--end collg10-->
+        </div><!--end from group-->
+        <div class="form-group">
+          <div class="col-lg-10 col-lg-offset-2">
+            <button type="submit" class="btn btn-warning">Submit</button>
+          </div>
+        </div>
+
+      </form><!--end form-->
+    </div><!--end collg8-->
+  </div><!--end row-->
+</section><!--end section-->
+</div><!--end container-->
+
+<!--footer-->
+<footer>
+<hr>
+<div class="well">
+    <div class="container text-center ">
+        <h3>Subscribe for more cool stuff</h3>
+        <p>Enter your name and email</p>
+        <form action="" class="form-inline">
+            <div class="form-group">
+                <label for="subscription">Name</label>
+                <input type="text" class="form-control" id="subscription" placeholder="Your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email" placeholder="Your email">
+            </div>
+            <button type="submit" class="btn btn-warning">Subscribe</button>
+
+        </form>
+        <hr>
+        <ul class="list-inline">
+          <li><a href="http://www.twitter.com/smartwatertracker">Twitter</a></li>
+          <li><a href="http://www.facebook.com/smartwatertracker">Facebook</a></li>
+          <li><a href="http://www.youtube.com/smartwatertracker">YouTube</a></li>
+        </ul>
+        <p>&copy; Copyright @ 2016</p>
+
+    </div><!--end container-->
+</div><!--end of well-->
+
+  </footer><!--end footer-->
+
+
+
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</body>
+</html>

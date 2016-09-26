@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title> Smart Water Watch </title>
+<meta name="description" content="Smart Water Watch">
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+</head>
+
+<body data-spy="scroll" data-target="#my-navbar">
+  <!--navbar header-->
+<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar" >
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a href="" class="navbar-brand">Smart Water Watch</a>
+      </div><!--navbar header-->
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <div class="btn-toolbar ">
+
+
+            <!--  <a href="signup.html" class="btn   btn-warning btn-sm navbar-btn navbar-right">SignUp</a>
+              <a href="login.html" class="btn   btn-warning btn-sm navbar-btn navbar-right">LogIn</a>-->
+
+              <ul class="nav navbar-nav navbar-right">
+                <!--signup-->
+                <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>SignUp</b> <span class="caret"></span></a>
+    <ul id="login-dp" class="dropdown-menu">
+      <li>
+         <div class="row">
+            <div class="col-lg-12">
+
+               <form class="form" role="form" method="post" action="signup" accept-charset="UTF-8" id="signup-nav">
+                <div class="form-group">
+                     <label class="sr-only" for="examplefirstname">First Name</label>
+                     <input type="text" class="form-control" id="examplefirstname" placeholder="First Name" required>
+                  </div>
+                  <div class="form-group">
+                     <label class="sr-only" for="examplelastname">Last Name</label>
+                     <input type="text" class="form-control" id="examplelastname" placeholder="Last Name" required>
+                  </div>
+                  <div class="form-group">
+                     <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                     <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                  </div>
+                  <div class="form-group">
+                     <label class="sr-only" for="exampleInputPassword2">Password</label>
+                     <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                  </div>
+                  <div class="form-group">
+                     <label class="sr-only" for="exampleInputPassword3">Retype Password</label>
+                     <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Retype Password" required>
+                  </div>
+                  <div class="form-group ">
+                    <button type="submit" style="height:30px; width:300px" class="btn btn-primary btn-block">SignUp</button><br>
+
+                    <hr>
+                  </div>
+
+               </form>
+            </div>
+
+         </div>
+      </li>
+    </ul>
+      </li>
+                <!--login-->
+       <li class="dropdown">
+         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+     <ul id="login-dp" class="dropdown-menu">
+       <li>
+          <div class="row">
+             <div class="col-lg-12">
+               Login via
+               <div class="social-buttons">
+                 <a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+                 <a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+               </div>
+                               or
+                <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                   <div class="form-group">
+                      <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                   </div>
+                   <div class="form-group">
+                      <label class="sr-only" for="exampleInputPassword2">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                            <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+                   </div>
+                   <div class="form-group ">
+                     <button type="submit" style="height:30px; width:300px" class="btn btn-primary btn-block">LogIn</button>
+
+                     <hr>
+                   </div>
+                   <div class="checkbox">
+                      <label>
+                      <input type="checkbox"> keep me logged-in
+                      </label>
+                   </div>
+                </form>
+             </div>
+             <div class="bottom text-center">
+               New here ? <a href="#"><b>Join Us</b></a>
+             </div>
+          </div>
+       </li>
+     </ul>
+       </li>
+     </ul>
+<style>
+body{
+    padding:50px;
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+</style>
+
+            <ul class="nav navbar-nav">
+              <li><a href="#about">About</a>
+              <li><a href="#equipment">Equipment</a>
+                <li><a href="#feedback">Feedback</a>
+              <li><a href="#faq">FAQ</a>
+              <li><a href="#contact">ContactUs</a>
+            </ul>
+            </div>
+        </div>
+      </div><!--end container-->
+</nav><!--end navbar-->
+
+<!--jumbotron-->
+<div class="jumbotron" style="background-image: url(http://www.howitworksdaily.com/wp-content/uploads/2015/05/Droplets-Water.jpg); background-size: 100%;">
+  <div class="container text-center">
+
+    <h1>Smart Water Watch</h1>
+      <p> A smart App that manages your water usage and water bills. </p>
+      <div class="btn-group">
+
+        <a href="" class="btn btn-lg btn-warning">Visit store</a>
+
+      </div>
+  </div><!-- end container-->
+</div><!--jumbotron end-->
+
+<!--About-->
+<div class="container">
+  <section>
+    <div class="page-header" id="about">
+      <h2>About<small> Check out the information regarding the Smart Water Watch!</small></h2>
+    </div><!--end header-->
+    <div class="rows">
+      <div class="col-lg-8">
+        <h3>Water Management</h3>
+        <p>Water resource management is the activity of planning, developing, distributing and managing the optimum use of water resources. It is a sub-set of water cycle management. Ideally, water resource management planning has regard to all the competing demands for water and seeks to allocate water on an equitable basis to satisfy all uses and demands. As with other resource management, this is rarely possible in practice.</p>
+      </div><!--end column-->
+      <div class="col-lg-4">
+        <img src="tap.jpg" class="img-responsive" alt="water flow sensor ">
+      </div><!--end col4-->
+    </div><!--end rows-->
+    <div class="rows">
+      <div class="col-lg-8">
+        <h3>Water bill management</h3>
+        <p>Water flow sensor consists of a plastic valve body, a water rotor, and a hall-effect sensor. When water flows through the rotor, rotor rolls. Its speed changes with different rate of flow. The hall-effect sensor outputs the corresponding pulse Signal.</p>
+      </div><!--end column-->
+      <div class="col-lg-4">
+        <img src="bill.jpg" class="img-responsive" alt="water flow sensor ">
+      </div><!--end col4-->
+    </div><!--end rows-->
+
+  </section>
+</div><!--end container-->
+
+
+<!--features-->
+<div class="container">
+  <section>
+    <div class="page-header" id="equipment">
+      <h2>Equipment<small> Check out the equipment needed!</small></h2>
+    </div><!--end header-->
+    <div class="rows">
+      <div class="col-lg-8">
+        <h3>Water Flow sensor</h3>
+        <p>Water flow sensor consists of a plastic valve body, a water rotor, and a hall-effect sensor. When water flows through the rotor, rotor rolls. Its speed changes with different rate of flow. The hall-effect sensor outputs the corresponding pulse Signal.</p>
+      </div><!--end column-->
+      <div class="col-lg-4">
+        <img src="water flow sensor.jpg" class="img-responsive" alt="water flow sensor ">
+      </div><!--end col4-->
+    </div><!--end rows-->
+    <div class="rows">
+      <div class="col-lg-8">
+        <h3>Raspberry Pi</h3>
+        <p>The Raspberry Pi is a low cost, credit-card sized computer that plugs into a computer monitor or TV, and uses a standard keyboard and mouse. It is a capable little device that enables people of all ages to explore computing, and to learn how to program in languages like Scratch and Python.</p>
+      </div><!--end column-->
+      <div class="col-lg-4">
+        <img src="raspberrypi2.png" class="img-responsive" alt="raspberrypi ">
+      </div><!--end col4-->
+    </div><!--end rows-->
+    <div class="rows">
+      <div class="col-lg-8">
+        <h3>Smart Phone</h3>
+        <p>A mobile phone is a portable telephone that can make and receive calls over a radio frequency carrier while the user is moving within a telephone service area. The radio frequency link establishes a connection to the switching systems of a mobile phone operator, which provides access to the public switched telephone network (PSTN). Most modern mobile telephone services use a cellular network architecture, and therefore mobile telephones are often also called cellular telephones or cell phones. In addition to telephony, 2000s-era mobile phones support a variety of other services, such as text messaging, MMS, email, Internet access, short-range wireless communications (infrared, Bluetooth), business applications, gaming, and digital photography. Mobile phones which offer these and more general computing capabilities are referred to as smartphones.</p>
+      </div><!--end column-->
+      <div class="col-lg-4">
+        <img src="mobile.jpg" class="img-responsive" alt="mobile ">
+      </div><!--end col4-->
+    </div><!--end rows-->
+  </section><!--end section-->
+</div><!--end container-->
+
+<!--feedback-->
+<div class="container">
+  <section>
+    <div class="page-header" id="feedback"></div>
+      <h2>Feedback<small> check out the awesome feedback!</small></h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <blockquote>
+              <p>This is really good one Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <footer>Mounika</footer>
+            </blockquote>
+          </div>
+          <div class="col-lg-4">
+            <blockquote>
+              <p>This is really average one Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <footer>charmi</footer>
+            </blockquote>
+          </div>
+          <div class="col-lg-4">
+            <blockquote>
+              <p>This is really sooper one Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.p>
+                <footer>Mahitha</footer>
+            </blockquote>
+          </div>
+        </div><!--end row-->
+      </section>
+</div><!--end container-->
+
+<!--call to action-->
+
+
+<!--faq-->
+<div class="container">
+  <section>
+    <div class="page-header" id="faq">
+      <h2>FAQ<small> Check out customer queries!</small></h2>
+    </div><!--end header-->
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse1">Which version of Raspberry Pi is preferable?</a>
+        </h4>
+      </div><!--end panel heading-->
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">We generally suggest version 2 or 3 since they have LTE and Wi-Fi options.</div>
+      </div><!--end panel collapse-->
+    </div><!--end panel-default-->
+  </div><!--end panel group-->
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse2">How many raspberry pi's do I need?</a>
+        </h4>
+      </div><!--end panel heading-->
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">It actually depends on the architecture of your house. it is suggestable you maintain one for each domain( kitchen, backyard, bathroom etc)</div>
+      </div><!--end panel collapse-->
+    </div><!--end panel-default-->
+  </div><!--end panel group-->
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse3">What is the maximum water limit that I can set?</a>
+        </h4>
+      </div><!--end panel heading-->
+      <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">It depends on the water usage of your house and also the water supply in your community.</div>
+      </div><!--end panel collapse-->
+    </div><!--end panel-default-->
+  </div><!--end panel group-->
+</section>
+</div>
+
+<!--contact us-->
+<div class="container">
+<section>
+  <div class="page-header" id="contact">
+    <h2>Contact Us<small> Contact details!</small></h2>
+  </div><!--end header-->
+  <div class="row">
+    <div class="col-lg-4">
+      <p> Feel free to contact us...!</p>
+      <address>
+        <strong>Smart Water watch Pvt Ltd.</strong><br>
+        101E San fernando Street<br>
+        101 san Fernando Apt<br>
+        Unit #131<br>
+        Ph: (925)-549-5443.
+      </address>
+    </div><!--end collg4-->
+    <div class="col-lg-8">
+      <form action="" class="form-horizontal">
+        <div class="form-group">
+          <label for="user-name" class="col-lg-2 control-label">Name</label>
+          <div class="col-lg-10">
+            <input type="text" class="form-control" id="user-name" placeholder="Enter your Name">
+          </div><!--end collg10-->
+        </div><!--end from group-->
+        <div class="form-group">
+          <label for="user-email" class="col-lg-2 control-label">Email</label>
+          <div class="col-lg-10">
+            <input type="text" class="form-control" id="user-email" placeholder="Enter your Email Id">
+          </div><!--end collg10-->
+        </div><!--end from group-->
+        <div class="form-group">
+          <label for="user-message" class="col-lg-2 control-label">Message</label>
+          <div class="col-lg-10">
+            <textarea name="user-message" id="user-message" class="form-control" cols="20" rows="10" placeholder="Enter your message">
+            </textarea>
+          </div><!--end collg10-->
+        </div><!--end from group-->
+        <div class="form-group">
+          <div class="col-lg-10 col-lg-offset-2">
+            <button type="submit" class="btn btn-warning">Submit</button>
+          </div>
+        </div>
+
+      </form><!--end form-->
+    </div><!--end collg8-->
+  </div><!--end row-->
+</section><!--end section-->
+</div><!--end container-->
+
+<!--footer-->
+<footer>
+<hr>
+<div class="well">
+    <div class="container text-center ">
+        <h3>Subscribe for more cool stuff</h3>
+        <p>Enter your name and email</p>
+        <form action="" class="form-inline">
+            <div class="form-group">
+                <label for="subscription">Name</label>
+                <input type="text" class="form-control" id="subscription" placeholder="Your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email" placeholder="Your email">
+            </div>
+            <button type="submit" class="btn btn-warning">Subscribe</button>
+
+        </form>
+        <hr>
+        <ul class="list-inline">
+          <li><a href="http://www.twitter.com/smartwaterwatch">Twitter</a></li>
+          <li><a href="http://www.facebook.com/smartwaterwatch">Facebook</a></li>
+          <li><a href="http://www.youtube.com/smartwaterwatch">YouTube</a></li>
+        </ul>
+        <p>&copy; Copyright @ 2016</p>
+
+    </div><!--end container-->
+</div><!--end of well-->
+
+  </footer><!--end footer-->
+
+
+
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</body>
+</html>

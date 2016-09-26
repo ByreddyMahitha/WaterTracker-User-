@@ -1,0 +1,8 @@
+INDEX VERSION 1.3+C:\Users\ramky\Desktop\summer\bootstrap\practice\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1162473318.index
+202546143.index
+843271231.index
+2135051184.index
+2313614979.index
+117548298.index
+2568633265.index

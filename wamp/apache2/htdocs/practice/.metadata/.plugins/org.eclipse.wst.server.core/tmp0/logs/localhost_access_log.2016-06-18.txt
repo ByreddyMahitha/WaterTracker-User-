@@ -1,0 +1,11 @@
+127.0.0.1 - - [18/Jun/2016:23:06:18 -0700] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [18/Jun/2016:23:06:20 -0700] "GET /SchoolSchedule/Schedule.jsp HTTP/1.1" 200 1908
+127.0.0.1 - - [18/Jun/2016:23:37:01 -0700] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [18/Jun/2016:23:37:02 -0700] "GET /SchoolSchedule/Schedule.jsp HTTP/1.1" 200 3016
+0:0:0:0:0:0:0:1 - - [18/Jun/2016:23:37:18 -0700] "GET /SchoolSchedule/Schedule.jsp HTTP/1.1" 200 3016
+0:0:0:0:0:0:0:1 - - [18/Jun/2016:23:37:38 -0700] "POST /SchoolSchedule/Schedule.jsp HTTP/1.1" 200 3016
+0:0:0:0:0:0:0:1 - - [18/Jun/2016:23:37:40 -0700] "POST /SchoolSchedule/Schedule.jsp HTTP/1.1" 200 3016
+0:0:0:0:0:0:0:1 - - [18/Jun/2016:23:37:40 -0700] "POST /SchoolSchedule/Schedule.jsp HTTP/1.1" 200 3016
+0:0:0:0:0:0:0:1 - - [18/Jun/2016:23:38:07 -0700] "POST /SchoolSchedule/Schedule.jsp HTTP/1.1" 200 3016
+0:0:0:0:0:0:0:1 - - [18/Jun/2016:23:38:26 -0700] "POST /SchoolSchedule/Schedule.jsp HTTP/1.1" 200 3016
+0:0:0:0:0:0:0:1 - - [18/Jun/2016:23:38:27 -0700] "POST /SchoolSchedule/Schedule.jsp HTTP/1.1" 200 3016

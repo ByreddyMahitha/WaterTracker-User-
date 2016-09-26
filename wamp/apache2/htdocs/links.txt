@@ -1,0 +1,2 @@
+http://www.kodingmadesimple.com/2016/01/php-login-and-registration-script-with-mysql-example.html
+http://www.phponwebsites.com/2014/07/php-mysql-login-validation.html

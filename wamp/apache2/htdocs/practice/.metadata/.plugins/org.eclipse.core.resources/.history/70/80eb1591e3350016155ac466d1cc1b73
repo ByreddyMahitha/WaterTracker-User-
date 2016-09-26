@@ -1,0 +1,5 @@
+package org.eclipse.wtp.sample.classschedule;
+
+public class SchoolClass {
+
+}
